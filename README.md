@@ -1,11 +1,13 @@
-# YouTube MCP(Model Context Protcol) Server for Transcript
+# YouTube MCP(Model Context Protcol) Server
 
 ----
-This MCP server provides a tool to fetch and extract transcripts from YouTube videos. 
+This MCP server provides a tool to fetch and extract transcripts from YouTube videos. It enables AI language models (LLMs) to:
 
-- Provides LLMs have access to full text transcript from a YouTube video URL
-- Used to further Process and analyze video content through the transcript
-- Reference video information in conversations
+- Access complete text transcripts from YouTube video URLs
+- Process and analyze video content through transcripts
+- Reference and discuss video information in conversations
+
+The server acts as a bridge between AI models and YouTube content by automatically extracting and formatting video transcripts.
 
 Instead of saying can't access links
 ![](image.png)
