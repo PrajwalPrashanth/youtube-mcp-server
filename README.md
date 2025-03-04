@@ -1,4 +1,4 @@
-# YouTube Transcript MCP(Model Context Server)
+# YouTube MCP(Model Context Protcol) Server for Transcript
 
 ----
 This MCP server provides a tool to fetch and extract transcripts from YouTube videos. 
