@@ -5,7 +5,7 @@ from pathlib import Path
 from youtube_transcript_api import YouTubeTranscriptApi
 
 # Create an MCP server
-mcp = FastMCP("youtube-mcp-server")
+mcp = FastMCP("youtube-mcp-server", dependencies=["youtube_transcript_api"])
 
 @mcp.tool()
 def get_youtube_transcript(url: AnyUrl) -> str:

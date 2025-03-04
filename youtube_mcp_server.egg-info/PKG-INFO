@@ -1,3 +1,12 @@
+Metadata-Version: 2.2
+Name: youtube-mcp-server
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: mcp[cli]>=1.3.0
+Requires-Dist: youtube-transcript-api>=0.6.3
+
 # YouTube Transcript MCP(Model Context Server)
 
 ----
@@ -42,14 +51,7 @@ Instead of saying can't access links
    uv pip install -r pyproject.toml
    ```
 
-## Add this MCP server to Claude Desktop ([download](https://claude.ai/download))
+## Add this MCP server to Claude Desktop
 ```bash
-uv run mcp install -e . server.py -n "youtube-mcp"
+mcp install server.py --name "youtube-mcp"
 ```
-
-Once this is done you should see the tool icon in the UI
-![](mcp-avail.png)
-
-and you can ask for it to do actions (like summarize) with the transcript by providing a YT video
-
-![](allow-tool.png)
